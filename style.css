@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    font-size: 1rem;
+}
+@font-face {
+    font-family: NorseBold;
+    src: url(Norse-Bold.otf);
+}
+button{
+    background-color: #596D48;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+.left{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex: 3;
+    position: relative;    
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    flex: 6;
+    background-color: rgb(240 240 240);
+    justify-content: center;
+    align-items: center;
+}
+.logo-bar{
+    display: flex;
+    font-family: NorseBold;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    text-align: center;
+    padding:20px;
+    gap: 10px;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    font-size: 6em;
+}
+.left p{
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+p a{
+    color: white;
+}
+.text p{
+    font-weight: bold;
+}
+.text p+p{
+    margin-top: 20px;
+}
