@@ -24,9 +24,29 @@
                 <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i> now </i>to get started.</p>
                 <p> You know you want to.</p>
             </div>
-            <div class="form"></div>
-            <div class="account"></div>
+            <div class="form">
+                <form action="#" method="post" id="form">
+                    <h2>Let's do this</h2>
+                    <div><label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" name="firstName" required></div>
+                    <div><label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName" name="lastName" required></div>
+                    <div> <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required> </div>
+                    <div><label for="phoneNumber">PHONE NUMBER</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required></div>
+                    <div><label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" required ></div>
+                    <div><label for="confirmPassword">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required></div>
+                </form>
+            </div>
+            <div class="account">
+                <button type="submit" form="form">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
         </div>
     </div>
+    <footer>Created By kajlos<a href="https://github.com/kajlos"> <img src="GitHub-logo.png"> </a></footer>
 </body>
 </html>
